@@ -1,0 +1,61 @@
+/* Player.css */
+.player-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 20px;
+  background-color: #f4f4f9;
+}
+
+.player-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.player-card:hover {
+  transform: translateY(-10px);
+}
+
+.player-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.player-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.player-team {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.player-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.player-button:hover {
+  background-color: #0056b3;
+}
+
+.ant-modal {
+  display: block !important;
+  z-index: 1000;
+}
